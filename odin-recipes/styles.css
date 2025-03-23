@@ -1,0 +1,22 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-heading {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(26, 190, 219);
+    text-align: center;
+}
+
+.recipe-list {
+    list-style-position: inside;
+    display: table;
+    margin: 0 auto;
+    width: 500px;
+    height: auto;
+    color: darkorchid;
+}
+
+a {
+    color: dodgerblue;
+}
