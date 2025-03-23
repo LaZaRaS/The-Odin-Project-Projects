@@ -1,0 +1,20 @@
+body {
+    background-color: bisque;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.main-heading {
+    text-align: center;
+}
+
+.image {
+    display: table;
+    margin: 0 auto;
+}
+
+p, ul, ol, li{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
