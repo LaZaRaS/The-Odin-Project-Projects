@@ -1,18 +1,48 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: bisque;
+    box-sizing: border-box;
+    margin: 0px;
 }
 
 .main-heading {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    border-bottom: solid black;
+    border-width: 2px;
 }
 
 .recipe-list {
     list-style-position: inside;
-    display: table;
+    display: block;
     margin: 0 auto;
-    width: 500px;
     height: auto;
     color: darkorchid;
+}
+
+.first-recipe, .second-recipe, .third-recipe {
+    display: block;
+    margin: 50px 0px;
+    padding: 100px;
+    outline: 2px;
+    text-align: center;
+    border: solid black;
+}
+
+.first-recipe {
+    background-color: aliceblue;
+    color: hotpink;
+    text-decoration-color: darkslategrey; 
+}
+
+.second-recipe {
+    background-color: crimson;
+    color: aqua;
+    text-decoration-color: deepskyblue 
+}
+
+.third-recipe {
+    background-color: darkgreen;
+    color: azure;
+    text-decoration-color: deeppink;
 }
